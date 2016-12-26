@@ -1,0 +1,21 @@
+<form class="well" (submit)="addPhrase($event)">
+  <div class="form-group">
+    <input type="text" [(ngModel)]="engVersion" name="engVersion" class="form-control" placeholder="Add phrase" />
+  </div>
+</form>
+
+
+<div class="phrase-list">
+    <div *ngFor="let phrase of phrases">
+        <div class="col-md-1">
+            <input type="checkbox">
+        </div>
+        <div class="col-md-7">
+            {{phrase.engVersion}}
+        </div>
+        <div class="col-md-4">
+            {{phrase.plVersion}}
+        </div>
+        <br><br>
+    </div>
+</div>

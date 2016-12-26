@@ -2,7 +2,7 @@
   "name": "repetitor",
   "version": "1.0.0",
   "description": "web application organizes personalized replays of english expressions",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -15,5 +15,13 @@
   "bugs": {
     "url": "https://github.com/tyskocz/repetitor/issues"
   },
-  "homepage": "https://github.com/tyskocz/repetitor#readme"
+  "homepage": "https://github.com/tyskocz/repetitor#readme",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "ejs": "^2.5.5",
+    "express": "^4.14.0",
+    "mongojs": "^2.4.0",
+    "mongoose": "^4.7.4",
+    "nodemon": "^1.11.0"
+  }
 }
