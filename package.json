@@ -1,0 +1,19 @@
+{
+  "name": "repetitor",
+  "version": "1.0.0",
+  "description": "web application organizes personalized replays of english expressions",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tyskocz/repetitor.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tyskocz/repetitor/issues"
+  },
+  "homepage": "https://github.com/tyskocz/repetitor#readme"
+}
